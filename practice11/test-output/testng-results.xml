@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18869" started-at="2021-06-05T12:35:50 IST" finished-at="2021-06-05T12:36:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18869" started-at="2021-06-05T12:35:50 IST" finished-at="2021-06-05T12:36:09 IST">
+      <class name="com.psqa.test2.HomePageTest2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.psqa.test2.HomePageTest2@704a52ec]" name="setUp" is-config="true" duration-ms="6526" started-at="2021-06-05T12:35:51 IST" finished-at="2021-06-05T12:35:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnCalendersLinkTest()[pri:1, instance:com.psqa.test2.HomePageTest2@704a52ec]" name="clickOnCalendersLinkTest" duration-ms="1922" started-at="2021-06-05T12:35:57 IST" finished-at="2021-06-05T12:35:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCalendersLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.psqa.test2.HomePageTest2@704a52ec]" name="tearDown" is-config="true" duration-ms="749" started-at="2021-06-05T12:35:59 IST" finished-at="2021-06-05T12:36:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.psqa.test2.HomePageTest2@704a52ec]" name="setUp" is-config="true" duration-ms="7543" started-at="2021-06-05T12:36:00 IST" finished-at="2021-06-05T12:36:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageUserNameTest()[pri:2, instance:com.psqa.test2.HomePageTest2@704a52ec]" name="verifyHomePageUserNameTest" duration-ms="1094" started-at="2021-06-05T12:36:07 IST" finished-at="2021-06-05T12:36:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageUserNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.psqa.test2.HomePageTest2@704a52ec]" name="tearDown" is-config="true" duration-ms="988" started-at="2021-06-05T12:36:08 IST" finished-at="2021-06-05T12:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.psqa.test2.HomePageTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
