@@ -1,0 +1,27 @@
+Q1. Introduction to Java?
+Ans: Java is a programming language. Java is created in sun microsystem. Java is created and lead by team James Gosling.
+
+Q2. What is JDK?
+Ans: Java Development Kit
+Java Code(.java)
+Java Compiler(javac)
+ByteCode(.class)
+JVM(Java Virtual Machine)
+OSs: windows, macOS, Linux
+
+Q3. What is JRE?
+Ans: Java Runtime Environment
+JVM+Set of libraries+ other files
+
+Q4. What is JDK?
+Ans: Java Development Kit
+JRE+ Development Kit
+
+Q5 What is Modifier?
+Ans: Two types of modifiers:
+I. Access Modifies: Default, Public, Private, Protected
+II. Static, abstract, synchronized
+
+Q6. What is automation testing?
+Ans: *To reduce human effort in doing manual testing.
+*

@@ -2,6 +2,7 @@ package com.crm.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,9 +12,12 @@ public class HomePage extends TestBase{
 	public static Actions action;
 
 	@FindBy(xpath="//span[contains(text(),'ankit test')]")
+	@CacheLookup//this stores the element into the cache memory, so the execution is faster. Drawback is if the page got refreshed then
+	//it will give staleElementExecption because the page got refreshed or DOM got changed.
 	WebElement userNameLabel;
 
 	@FindBy(xpath="//span[contains(text(),'Calendar')]")
+	@CacheLookup//Individual we have use this for element. 
 	WebElement calenderLink;
 
 	@FindBy(xpath = "//span[contains(text(),'Contacts')]")
